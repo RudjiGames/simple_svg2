@@ -323,7 +323,7 @@ struct ImageLoadFlags
 	};
 };
 
-void initLib(bx::AllocatorI* allocator);
+void initLib();
 void shutdownLib();
 
 Image* imageLoad(const char* xmlStr, uint32_t flags, const ShapeAttributes* baseAttrs);
